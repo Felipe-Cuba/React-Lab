@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+input{
+  border-radius: 5px;
+  border: none;
+}
+
+.App-header {
+  background-color: #414141;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.input-container{
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  text-align: justify;
+
+  color: #fff;
+}
+
+.total{
+  margin: 0;
+}
+
+.total-input {
+  width: 300px;
+  height: 30px;
+  font-size: 25px;
+  margin-bottom: 5px;
+  align-items: center;
+  text-align: center;
+}
