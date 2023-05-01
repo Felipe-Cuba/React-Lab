@@ -1,0 +1,21 @@
+body {
+  background-color: #525a69;
+}
+
+.App {
+  text-align: center;
+  align-items: center;
+  color: white;
+  justify-content: center;
+
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  /* color: white; */
+}
