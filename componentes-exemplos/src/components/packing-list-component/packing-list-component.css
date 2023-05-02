@@ -1,20 +1,8 @@
-.container-todo {
+.container-packing-list {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-}
-
-.todo-title{
-  font-size: calc(10px + 2vmin);
-}
-
-.photo {
-  margin-left: 5px;
-  max-height: 250px;
-  border-radius: 10px;
-  border: 1px solid black;
-  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 .list {
@@ -27,8 +15,8 @@
   width: 250px;
 }
 
-.list-item{
-  list-style: decimal;
+.Item{
+  list-style: lower-greek;
   font-size: calc(5px + 1.5vmin);
   /* color: #fff */
 }

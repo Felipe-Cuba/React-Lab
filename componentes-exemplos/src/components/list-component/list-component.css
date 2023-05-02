@@ -1,0 +1,54 @@
+
+.list-component {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  margin: 20px;
+  width: 100%;
+  max-width: 600px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  color: black
+}
+
+.card-image {
+  flex: 0 0 40%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card-image .image-icon {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.card-content {
+  flex: 1 1 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-text {
+  font-size: 16px;
+  margin: 0;
+}
