@@ -1,0 +1,33 @@
+.contact-list-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #439eff;
+  border: 1px solid #2c92ff;
+  border-radius: 4px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #397fca;
+}
+
+.contact-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.contact-button.active:hover {
+  background-color: #0056b3;
+}

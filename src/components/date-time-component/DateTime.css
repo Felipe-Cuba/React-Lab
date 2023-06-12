@@ -1,0 +1,25 @@
+.datetime-container {
+  background-color: #f2f2f2;
+  color: #121212;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+.datetime-text {
+  font-size: 24px;
+  margin: 8px 0;
+}
+
+.date-label {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.time-label {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+/* Add any additional styles or modifications for the dark theme */

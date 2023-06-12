@@ -1,0 +1,18 @@
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  height: 30px;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee-animation 10s linear infinite;
+}
+
+.marquee-text {
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 20px; /* Espaçamento entre as repetições */
+  text-transform: uppercase;
+}

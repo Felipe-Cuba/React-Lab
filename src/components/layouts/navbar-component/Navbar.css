@@ -1,0 +1,44 @@
+.navbar {
+  background-color: #222;
+  padding: 10px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-right: 10px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  position: relative;
+}
+
+.navbar-link:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #1683ff;
+  transition: width 0.3s ease;
+}
+
+.navbar-link:hover:before {
+  width: 100%;
+}
+
+.navbar-item.active {
+  /* Estilos para a aba ativa */
+  background-color: #1683ff;
+  /* color: #222; */
+}

@@ -1,0 +1,33 @@
+.inputText {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.inputText:disabled {
+  background-color: #f2f2f2;
+  cursor: not-allowed;
+}
+
+
+
+.submitButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #0052aa;
+  transition: .3s;
+}
+
+.submitButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

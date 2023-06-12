@@ -1,0 +1,7 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Define 4 colunas com largura igual */
+  gap: 10px; /* Define o espaçamento entre os cards */
+  max-width: 600px; /* Defina a largura máxima do tabuleiro */
+  margin: 0 auto; /* Centraliza o tabuleiro horizontalmente */
+}

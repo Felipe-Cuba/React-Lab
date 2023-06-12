@@ -1,0 +1,31 @@
+/* form3-component.css */
+
+.form3-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form3-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form3-output {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.form3-image-container {
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.form3-image {
+  max-height: 300px;
+}

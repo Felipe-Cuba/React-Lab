@@ -1,0 +1,43 @@
+.accordion-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.accordion-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.panel {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.panel.active {
+  background-color: #202020;
+}
+
+.panel-title {
+  font-weight: bold;
+}
+
+.panel-content {
+  margin-top: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

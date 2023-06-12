@@ -1,0 +1,51 @@
+.buttons-gallery-contaier {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.gallery-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gallery-button:hover {
+  background-color: #45a049;
+}
+
+.gallery-button:active {
+  background-color: #3e8e41;
+}
+
+.gallery-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.gallery-index {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.gallery-description {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.gallery-image {
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

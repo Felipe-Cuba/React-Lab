@@ -1,0 +1,27 @@
+/* form2-component.css */
+
+.form2-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form2-input {
+  width: 300px; /* Defina o tamanho fixo desejado */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.form2-input:focus {
+  outline: none;
+  border-color: #8e44ad;
+}
+
+.form2-output {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #f8f8f8;
+}
